@@ -1,0 +1,180 @@
+/* src/App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.home {
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Additional Styling for the components */
+.balance {
+  background-color: #e0f7fa;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.transaction-form input,
+.transaction-form select,
+.transaction-form button {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.transaction-form button {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+.transaction-form button:hover {
+  background-color: #45a049;
+}
+
+.transaction-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.transaction-list li {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.transaction-list .income {
+  background-color: #c8e6c9;
+}
+
+.transaction-list .expense {
+  background-color: #ffcdd2;
+}
+
+/* Balance styling */
+.balance {
+  background-color: #e0f7fa;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.balance h2 {
+  margin-bottom: 10px;
+}
+
+.balance h3 {
+  font-size: 2rem;
+  color: #4caf50;
+  margin-bottom: 10px;
+}
+
+.balance-details {
+  font-size: 1rem;
+  color: #333;
+}
+
+.balance-details p {
+  margin: 5px 0;
+}
+
+
+/* TransactionForm styling */
+.transaction-form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.transaction-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.transaction-form input,
+.transaction-form select,
+.transaction-form button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.transaction-form button {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+.transaction-form button:hover {
+  background-color: #45a049;
+}
+
+/* TransactionList styling */
+.transaction-list {
+  background-color: #fafafa;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.transaction-list h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.transaction-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.transaction-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.transaction-list li .amount {
+  font-weight: bold;
+}
+
+.transaction-list .income {
+  background-color: #c8e6c9;
+}
+
+.transaction-list .expense {
+  background-color: #ffcdd2;
+}
+
+.transaction-list .type {
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #555;
+}
